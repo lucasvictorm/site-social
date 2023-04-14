@@ -28,11 +28,29 @@ main{
     transform: translate(-50%, -50%);
 }
 
-
-iframe{
+#tela{
     position: relative;
     top: 66px;
     left: 19px;
     width: 212px;
     height: 376px;
+}
+
+#sociais{
+    text-align: right;
+    padding-top: 150px;
+}
+
+#sociais img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767);
+    margin: 10px;
+    border-radius: 50px;
+    width: 40px;
+    /*box-sizing*/
+   
+}
+
+#sociais img:hover{
+    width: 50px;
+    transition: width .5s;
 }
