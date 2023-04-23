@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 html, body{
     width: 100vw;
     height: 100vh;
@@ -17,28 +22,35 @@ main{
 }
 
 #telefone{
-    background-image: url('../imagens/frame-iphone.png');
-    background-size: 250px;
-    background-repeat: no-repeat;
-    height: 500px;
-    width: 250px;
-    position: absolute;
-    top: 50%;
+    
+    width: 190px;
+    height: 417px;
+    position: relative;
     left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box-tela{
+    position: absolute;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
 #tela{
-    position: relative;
-    top: 66px;
-    left: 19px;
-    width: 212px;
-    height: 376px;
+    width: 178px;
+    height: 400px;
+    
+    
 }
 
 #sociais{
+    position: absolute;
     text-align: right;
     padding-top: 150px;
+    top: 0px;
+    left: 90%;
 }
 
 #sociais img{
